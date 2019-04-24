@@ -1,0 +1,18 @@
+$parent-class:"body.app";
+
+
+#{$parent-class}{
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    main{
+        flex: 1 0 auto;
+        ul.listado{
+            cursor: pointer;
+            a.collection-item{
+                text-transform: capitalize;
+            }
+        }
+    }
+    
+}
